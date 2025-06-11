@@ -74,6 +74,7 @@ The user is the winner!
 3. Run the script using the following command:
 
    ```bash
+   cd game
    python3 main.py
    ```
 

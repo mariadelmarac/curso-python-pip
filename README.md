@@ -87,7 +87,7 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 ## Author
 
-[Your Name]
+mariadelmarac
 
 ---
 

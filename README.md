@@ -123,25 +123,30 @@ pip3 install -r requirements.txt
    cd app
    ```
 
-3. Activate the virtual environment (if applicable):
+3. Create a virtual enviroment:
+   ```bash
+   python3 -m venv env
+   ```
+
+4. Activate the virtual environment:
 
    ```bash
    source env/bin/activate
    ```
 
-4. Install the dependencies:
+5. Install the dependencies:
 
    ```bash
    pip3 install -r requirements.txt
    ```
 
-5. Run the main script:
+6. Run the main script:
 
    ```bash
    python3 main.py
    ```
 
-6. Follow the instructions in the terminal to select a country and generate the charts.
+7. Follow the instructions in the terminal to select a country and generate the charts.
 
 ## Example Usage
 

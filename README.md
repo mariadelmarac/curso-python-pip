@@ -78,6 +78,85 @@ The user is the winner!
    python3 main.py
    ```
 
+Here’s an English version of the `README.md` file for your project:
+
+```markdown
+# Population Data Visualization Project
+
+This project is a data visualization tool that generates bar charts and pie charts based on population data from South American countries. The data is extracted from a CSV file and used to create visualizations using the `matplotlib` library.
+
+## Project Structure
+
+The project consists of the following files:
+
+- `main.py`: The main script that runs the program. It reads data from the CSV file, filters data for South America, generates a pie chart showing the world population percentages of each country, and allows the user to select a country to generate a bar chart of its historical population.
+
+- `charts.py`: Contains functions to generate bar charts and pie charts using `matplotlib`.
+
+- `read_csv.py`: Reads a CSV file and converts it into a list of dictionaries, where each dictionary represents a country with its respective data.
+
+- `utils.py`: Contains helper functions to retrieve a country's population and filter data by country.
+
+## Requirements
+
+To run this project, you need Python 3 and the following libraries installed:
+
+- `matplotlib`
+
+You can install the required dependencies by running:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+## Usage Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone <REPOSITORY_URL>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd app
+   ```
+
+3. Activate the virtual environment (if applicable):
+
+   ```bash
+   source env/bin/activate
+   ```
+
+4. Install the dependencies:
+
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+5. Run the main script:
+
+   ```bash
+   python3 main.py
+   ```
+
+6. Follow the instructions in the terminal to select a country and generate the charts.
+
+## Example Usage
+
+When you run `main.py`, the program will generate a pie chart showing the world population percentages of South American countries. Then, it will prompt you to enter a country name to generate a bar chart displaying the historical population of that country.
+
+## Contributions
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a Pull Request.
+
 ## License
 
 This project is open-source and available under the MIT License. Feel free to modify and distribute it as you see fit.
